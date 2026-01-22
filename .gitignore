@@ -1,0 +1,7 @@
+# Ignore Linux executables (no extension)
+*
+!*.*
+!*/
+
+# Ignore all text files
+*.txt
