@@ -47,22 +47,20 @@ typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
 
-
 /* clang-format on */
 
 /* Main()  function */
-int main()
-{
+int main() {
 
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	//freopen("output.txt","w",stdout);
-	#endif
+#ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+// freopen("output.txt","w",stdout);
+#endif
 
-	string line;
-	while(getline(cin, line)){
-		
-	}
-	return 0;
+  string word;
+  getline(cin, word);
+  word[0] = toupper(word[0]);
+  cout << word;
+  return 0;
 }
 /* Main() Ends Here */
